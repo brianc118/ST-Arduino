@@ -1,0 +1,5 @@
+{
+	"cmd": ["arduino_debug", "--upload", "$file"],
+	"selector": "source.arduino",
+	"file_regex": "^(.*?):([0-9]+):?([0-9]+)?:? error:(.*)$"	
+}

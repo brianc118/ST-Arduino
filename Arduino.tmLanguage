@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ino</string>
+		<string>pde</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/\*\*|\{\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\*\*/|^\s*\}</string>
+	<key>name</key>
+	<string>Arduino</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c++</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(HIGH|LOW|INPUT|INPUT_PULLUP|OUTPUT|DEC|BIN|HEX|OCT|PI|HALF_PI|TWO_PI|LSBFIRST|MSBFIRST|CHANGE|FALLING|RISING|DEFAULT|EXTERNAL|INTERNAL|INTERNAL1V1|INTERNAL2V56|boolean|byte|const|false|float|null|int|long|new|private|protected|public|short|signed|static|String|void|true|unsigned|boolean|byte|char|int|long|double|word|volatile|int8_t|uint8_t|int16_t|uint16_t|int32_t|uint32_t|BYTE|elapsedMillis|elapsedMicros|PROGMEM|DMAMEM|FASTRUN|A0|A1|A2|A3|A4|A5|A6|A7|A8|A9|A10|A11|A12|A13|A14|A15|A16|A17|A18|A19|A20|A21|A22|SS|MOSI|MISO|SCK|LED_BUILTIN|SDA|SCL|NUM_DIGITAL_PINS|NUM_ANALOG_INPUTS|NOT_AN_INTERRUPT|PIN_A0|PIN_A1|PIN_A2|PIN_A3|PIN_A4|PIN_A5|PIN_A6|PIN_A7|PIN_B0|PIN_B1|PIN_B2|PIN_B3|PIN_B4|PIN_B5|PIN_B6|PIN_B7|PIN_C0|PIN_C1|PIN_C2|PIN_C3|PIN_C4|PIN_C5|PIN_C6|PIN_C7|PIN_D0|PIN_D1|PIN_D2|PIN_D3|PIN_D4|PIN_D5|PIN_D6|PIN_D7|PIN_E0|PIN_E1|PIN_E2|PIN_E3|PIN_E4|PIN_E5|PIN_E6|PIN_E7|PIN_F0|PIN_F1|PIN_F2|PIN_F3|PIN_F4|PIN_F5|PIN_F6|PIN_F7|PIN_SS|PIN_SCLK|PIN_MOSI|PIN_MISO|PIN_LED|ANALOG_0|ANALOG_1|ANALOG_2|ANALOG_3|ANALOG_4|ANALOG_5|ANALOG_6|ANALOG_7|ANALOG_1_TO_0_X10|ANALOG_1_TO_0_X200|ANALOG_3_TO_2_X10|ANALOG_3_TO_2_X200|ANALOG_0_TO_1|ANALOG_2_TO_1|ANALOG_3_TO_1|ANALOG_4_TO_1|ANALOG_5_TO_1|ANALOG_6_TO_1|ANALOG_7_TO_1|ANALOG_0_TO_2|ANALOG_1_TO_2|ANALOG_3_TO_2|ANALOG_4_TO_2|ANALOG_5_TO_2|ANALOG_1_1V|ANALOG_0V|MODIFIERKEY_CTRL|MODIFIERKEY_SHIFT|MODIFIERKEY_ALT|MODIFIERKEY_GUI|MODIFIERKEY_LEFT_CTRL|MODIFIERKEY_LEFT_SHIFT|MODIFIERKEY_LEFT_ALT|MODIFIERKEY_LEFT_GUI|MODIFIERKEY_RIGHT_CTRL|MODIFIERKEY_RIGHT_SHIFT|MODIFIERKEY_RIGHT_ALT|MODIFIERKEY_RIGHT_GUI|KEY_MEDIA_VOLUME_INC|KEY_MEDIA_VOLUME_DEC|KEY_MEDIA_MUTE|KEY_MEDIA_PLAY_PAUSE|KEY_MEDIA_NEXT_TRACK|KEY_MEDIA_PREV_TRACK|KEY_MEDIA_STOP|KEY_MEDIA_EJECT|KEY_A|KEY_B|KEY_C|KEY_D|KEY_E|KEY_F|KEY_G|KEY_H|KEY_I|KEY_J|KEY_K|KEY_L|KEY_M|KEY_N|KEY_O|KEY_P|KEY_Q|KEY_R|KEY_S|KEY_T|KEY_U|KEY_V|KEY_W|KEY_X|KEY_Y|KEY_Z|KEY_1|KEY_2|KEY_3|KEY_4|KEY_5|KEY_6|KEY_7|KEY_8|KEY_9|KEY_0|KEY_ENTER|KEY_ESC|KEY_BACKSPACE|KEY_TAB|KEY_SPACE|KEY_MINUS|KEY_EQUAL|KEY_LEFT_BRACE|KEY_RIGHT_BRACE|KEY_BACKSLASH|KEY_NON_US_NUM|KEY_SEMICOLON|KEY_QUOTE|KEY_TILDE|KEY_COMMA|KEY_PERIOD|KEY_SLASH|KEY_CAPS_LOCK|KEY_F1|KEY_F2|KEY_F3|KEY_F4|KEY_F5|KEY_F6|KEY_F7|KEY_F8|KEY_F9|KEY_F10|KEY_F11|KEY_F12|KEY_PRINTSCREEN|KEY_SCROLL_LOCK|KEY_PAUSE|KEY_INSERT|KEY_HOME|KEY_PAGE_UP|KEY_DELETE|KEY_END|KEY_PAGE_DOWN|KEY_RIGHT|KEY_LEFT|KEY_DOWN|KEY_UP|KEY_NUM_LOCK|KEYPAD_SLASH|KEYPAD_ASTERIX|KEYPAD_MINUS|KEYPAD_PLUS|KEYPAD_ENTER|KEYPAD_1|KEYPAD_2|KEYPAD_3|KEYPAD_4|KEYPAD_5|KEYPAD_6|KEYPAD_7|KEYPAD_8|KEYPAD_9|KEYPAD_0|KEYPAD_PERIOD|KEY_UP_ARROW|KEY_DOWN_ARROW|KEY_LEFT_ARROW|KEY_RIGHT_ARROW|KEY_RETURN|KEY_LEFT_CTRL|KEY_LEFT_SHIFT|KEY_LEFT_ALT|KEY_LEFT_GUI|KEY_RIGHT_CTRL|KEY_RIGHT_SHIFT|KEY_RIGHT_ALT|KEY_RIGHT_GUI|MOUSE_LEFT|MOUSE_MIDDLE|MOUSE_RIGHT|MOUSE_ALL|NoteOff|NoteOn|AfterTouchPoly|ControlChange|ProgramChange|AfterTouchChannel|PitchBend|SystemExclusive|FILE_READ|FILE_WRITE|FILE_APPEND|JOYSTICK_BASE|MAX_CHANNELS|CH_SWITCH_1|CH_SWITCH_2|CH_SWITCH_3|CH_SWITCH_4|CH_SLIDER|CH_LIGHT|CH_TEMPERATURE|CH_MIC|CH_JOYSTICK_SW|CH_JOYSTICK_X|CH_JOYSTICK_Y|SWITCH_1|SWITCH_2|SWITCH_3|SWITCH_4|SWITCH_DOWN|SWITCH_LEFT|SWITCH_UP|SWITCH_RIGHT|JOYSTICK_DOWN|JOYSTICK_LEFT|JOYSTICK_UP|PRESSED|RELEASED|DEGREES_C|DEGREES_F|X_AXIS|Y_AXIS|Z_AXIS|MAX_DATA_BYTES|DIGITAL_MESSAGE|ANALOG_MESSAGE|REPORT_ANALOG|REPORT_DIGITAL|REPORT_VERSION|SET_PIN_MODE|SYSTEM_RESET|START_SYSEX|END_SYSEX|PWM|TOTAL_ANALOG_PINS|TOTAL_DIGITAL_PINS|TOTAL_PORTS|ANALOG_PORT|ERROR|IDLE|CONNECTING|GSM_READY|GPRS_READY|TRANSPARENT_CONNECTED|IDLE_CALL|CALLING|RECEIVINGCALL|TALKING|GSM_MODE_UNDEFINED|GSM_MODE_EGSM|GSM_MODE_DCS|GSM_MODE_PCS|GSM_MODE_EGSM_DCS|GSM_MODE_GSM850_PCS|GSM_MODE_GSM850_EGSM_DCS_PCS|AUTOMATIC|MANUAL|DIRECT|REVERSE|NEC|SONY|SANYO|MITSUBISHI|RC5|RC6|DISH|SHARP|PANASONIC|JVC|UNKNOWN|REPEAT|FILE_READ|FILE_WRITE|EsploraTFT|SPI_CLOCK_DIV4|SPI_CLOCK_DIV16|SPI_CLOCK_DIV64|SPI_CLOCK_DIV128|SPI_CLOCK_DIV2|SPI_CLOCK_DIV8|SPI_CLOCK_DIV32|SPI_CLOCK_DIV64|SPI_MODE0|SPI_MODE1|SPI_MODE2|SPI_MODE3|MAX_DATA_BYTES|DIGITAL_MESSAGE|ANALOG_MESSAGE|REPORT_ANALOG|REPORT_DIGITAL|REPORT_VERSION|SET_PIN_MODE|SYSTEM_RESET|START_SYSEX|END_SYSEX|PWM|TOTAL_ANALOG_PINS|TOTAL_DIGITAL_PINS|TOTAL_PORTS|ANALOG_PORT|FREQUENCYTIMER2_PIN|ILI9341_BLACK|ILI9341_NAVY|ILI9341_DARKGREEN|ILI9341_DARKCYAN|ILI9341_MAROON|ILI9341_PURPLE|ILI9341_OLIVE|ILI9341_LIGHTGREY|ILI9341_DARKGREY|ILI9341_BLUE|ILI9341_GREEN|ILI9341_CYAN|ILI9341_RED|ILI9341_MAGENTA|ILI9341_YELLOW|ILI9341_WHITE|ILI9341_ORANGE|ILI9341_GREENYELLOW|ILI9341_PINK|FILE_READ|FILE_WRITE|SPI_CLOCK_DIV4|SPI_CLOCK_DIV16|SPI_CLOCK_DIV64|SPI_CLOCK_DIV128|SPI_CLOCK_DIV2|SPI_CLOCK_DIV8|SPI_CLOCK_DIV32|SPI_MODE0|SPI_MODE1|SPI_MODE2|SPI_MODE3|ALL|SOFTPWM_NORMAL|SOFTPWM_INVERTED|I2C_BUS_NUM|I2C_TX_BUFFER_LENGTH|I2C_RX_BUFFER_LENGTH|I2C_OP_MODE_IMM|I2C_OP_MODE_ISR|I2C_OP_MODE_DMA|I2C_MASTER|I2C_SLAVE|I2C_PINS_18_19|I2C_PINS_16_17|I2C_PINS_22_23|I2C_PINS_29_30|I2C_PINS_26_31|I2C_PULLUP_EXT|I2C_PULLUP_INT|I2C_RATE_100|I2C_RATE_200|I2C_RATE_300|I2C_RATE_400|I2C_RATE_600|I2C_RATE_800|I2C_RATE_1000|I2C_RATE_1200|I2C_RATE_1500|I2C_RATE_1800|I2C_RATE_2000|I2C_RATE_2400|I2C_RATE_2800|I2C_RATE_3000|I2C_NOSTOP|I2C_STOP|I2C_WAITING|I2C_SENDING|I2C_SEND_ADDR|I2C_RECEIVING|I2C_TIMEOUT|I2C_ADDR_NAK|I2C_DATA_NAK|I2C_ARB_LOST|I2C_BUF_OVF|I2C_SLAVE_TX|I2C_SLAVE_RX)\b</string>
+			<key>name</key>
+			<string>constant.arduino</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Serial|Serial1|Serial2|Serial3|SerialUSB|Keyboard|Mouse|Joystick|Disk|usbMIDI|RawHID|FlightSim|Bridge|FileSystem|Console|Process|Mailbox|HttpClient|YunServer|YunClient|Esplora|Ethernet|EthernetClient|EthernetServer|IPAddress|Firmata|callbackFunction|systemResetCallbackFunction|stringCallbackFunction|sysexCallbackFunction|GSM|GSMVoiceCall|GSM_SMS|GPRS|GSMClient|GSMServer|GSMModem|GSMScanner|GSMPIN|GSMBand|LiquidCrystal|PID|decode_results|IRrecv|IRsend|SD|File|Servo|SpacebrewYun|Stepper|TFT|Temboo|WiFi|WiFiUdp|Client|Server|EEPROM|EERef|SPI|SoftwareSerial|Bounce|EEPROM|EERef|Ethernet|EthernetClient|EthernetServer|IPAddress|Firmata|callbackFunction|systemResetCallbackFunction|stringCallbackFunction|sysexCallbackFunction|FlexiTimer2|FrequencyTimer2|ILI9341_t3|Adafruit_GFX_Button|LiquidCrystal|SD|File|SPI|SPI1|Servo|SoftPWM|SoftwareSerial)\b</string>
+			<key>name</key>
+			<string>storage.modifier.arduino</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(abs|acos|asin|atan|atan2|ceil|constrain|cos|degrees|exp|floor|log|map|max|min|radians|random|randomSeed|round|sin|sq|sqrt|tan|pow|bitRead|bitWrite|bitSet|bitClear|bit|highByte|lowByte|analogReference|analogRead|analogWrite|attachInterrupt|detachInterrupt|delay|delayMicroseconds|digitalWrite|digitalRead|interrupts|millis|micros|noInterrupts|noTone|pinMode|pulseIn|shiftIn|shiftOut|tone|yield|begin|end|peek|read|print|println|available|availableForWrite|flush|setTimeout|find|findUntil|parseInt|parseFloat|readBytes|readBytesUntil|readString|readStringUntil|trim|toUpperCase|toLowerCase|charAt|compareTo|concat|endsWith|startsWith|equals|equalsIgnoreCase|getBytes|indexOf|lastIndexOf|length|replace|setCharAt|substring|toCharArray|toInt|press|release|releaseAll|accept|click|move|isPressed|break|case|class|continue|default|do|else|for|if|register|return|switch|this|throw|try|while|setup|loop|readString|readStringUntil|analogReadRes|analogReadResolution|analogReadAveraging|analogWriteRes|analogWriteResolution|analogWriteFrequency|touchRead|Teensy3Clock|IntervalTimer|printf|digitalWriteFast|digitalReadFast|transmitterEnable|analogInputToDigitalPin|digitalPinHasPWM|digitalPinToInterrupt|copy|append|send_now|baud|stopbits|paritytype|numbits|dtr|rts|write_unicode|set_modifier|set_key1|set_key2|set_key3|set_key4|set_key5|set_key6|set_media|moveTo|screenSize|scroll|set_buttons|isPressed|button|position|Xrotate|Yrotate|Zrotate|sliderLeft|sliderRight|slider|hat|useManualSend|claim|readSector|writeSector|releaseReadOnly|sendNoteOff|sendNoteOn|sendPolyPressure|sendControlChange|sendProgramChange|sendAfterTouch|sendPitchBend|sendSysEx|analog2velocity|getType|getChannel|getData1|getData2|getSysExArray|setHandleNoteOff|setHandleNoteOn|setHandleVelocityChange|setHandleControlChange|setHandleProgramChange|setHandleAfterTouch|setHandlePitchChange|setHandlePitchChange|recv|send|FlightSimCommand|FlightSimInteger|FlightSimFloat|FlightSimElapsedFrames|onChange|update|isEnabled|getFrameCount|XPlaneRef|FileIO|begin|end|available|read|peek|write|flush|bool|transfer|put|get|buffer|noBuffer|connected|File|seek|position|size|close|name|isDirectory|openNextFile|rewindDirectory|addParameter|runAsynchronously|run|running|exitValue|runShellCommand|runShellCommandAsynchronously|readMessage|writeMessage|writeJSON|message|getAsynchronously|ready|getResult|accept|stop|connect|connected|begin|readSlider|readLightSensor|readTemperature|readMicrophone|readJoystickSwitch|readJoystickButton|readJoystickX|readJoystickY|readAccelerometer|readButton|writeRGB|writeRed|writeGreen|writeBlue|readRed|readGreen|readBlue|readTinkerkitInput|readTinkerkitInputA|readTinkerkitInputB|tone|noTone|status|connect|write|available|read|peek|flush|stop|connected|begin|beginPacket|endPacket|parsePacket|remoteIP|remotePort|begin|begin|printVersion|blinkVersion|printFirmwareVersion|setFirmwareVersion|setFirmwareNameAndVersion|available|processInput|sendAnalog|sendDigital|sendDigitalPortPair|sendDigitalPort|sendString|sendString|sendSysex|attach|detach|flush|begin|shutdown|gatVoiceCallStatus|ready|voiceCall|answerCall|hangCall|retrieveCallingNumber|beginSMS|endSMS|remoteNumber|attachGPRS|begnWrite|endWrite|getIMEI|getCurrentCarrier|getSignalStrength|readNetworks|isPIN|checkPIN|checkPUK|changePIN|switchPIN|checkReg|getPINUsed|setPINUsed|getBand|setBand|getvoiceCallStatus|begin|clear|home|print|setCursor|cursor|noCursor|blink|noBlink|display|noDisplay|autoscroll|noAutoscroll|leftToRight|rightToLeft|scrollDisplayLeft|scrollDisplayRight|createChar|setRowOffsets|SetMode|Compute|SetOutputLimits|SetTunings|SetControllerDirection|SetSampleTime|GetKp|GetKi|GetKd|GetMode|GetDirection|blink13|decode|enableIRIn|resume|enableIROut|sendNEC|sendSony|sendSanyo|sendMitsubishi|sendRaw|sendRC5|sendRC6|sendDISH|sendSharp|sendPanasonic|sendJVC|begin|exists|mkdir|remove|rmdir|open|close|seek|position|size|attach|detach|write|read|attached|writeMicroseconds|readMicroseconds|addPublish|addSubscribe|connect|verbose|monitor|onMessage|send|onRangeMessage|onStringMessage|onBooleanMessage|onCustomMessage|onOpen|onClose|onError|step|setSpeed|version|direction|speed|TembooChoreo|begin|setAccountName|setAppKeyName|setAppKey|setChoreo|setCredential|setSavedInputs|addInput|addOutputFilter|setSettingsFileToWrite|setSettingsFileToRead|firmwareVersion|status|connect|write|available|config|setDNS|read|flush|stop|connected|begin|disconnect|macAddress|localIP|subnetMask|gatewayIP|SSID|BSSID|RSSI|encryptionType|getResult|getSocket|WiFiClient|WiFiServer|WiFiUDP|beginPacket|endPacket|parsePacket|remoteIP|remotePort|EEPtr|update|begin|end|transfer|setBitOrder|setDataMode|setClockDivider|begin|end|read|write|available|isListening|overflow|flush|listen|peek|begin|setClock|beginTransmission|endTransmission|requestFrom|send|receive|onReceive|onRequest|Wire|update|interval|read|write|rebounce|risingEdge|fallingEdge|EEPtr|update|status|connect|write|available|read|peek|flush|stop|connected|begin|beginPacket|endPacket|parsePacket|remoteIP|remotePort|begin|begin|printVersion|blinkVersion|printFirmwareVersion|setFirmwareVersion|setFirmwareNameAndVersion|available|processInput|sendAnalog|sendDigital|sendDigitalPortPair|sendDigitalPort|sendString|sendString|sendSysex|attach|detach|flush|set|start|stop|setPeriod|getPeriod|enable|disable|setOnOverflow|pushColor|fillScreen|drawPixel|drawFastVLine|drawFastHLine|fillRect|setRotation|invertDisplay|setAddrWindow|color565|drawCircle|fillCircle|drawTriangle|fillTriangle|drawRoundRect|fillRoundRect|drawBitmap|drawChar|setCursor|setTextColor|setTextSize|setTextWrap|readPixel|readRect|writeRect|setFont|setFontAdafruit|drawFontChar|Adafruit_GFX_Button|initButton|drawButton|contains|press|isPressed|justPressed|justReleased|begin|clear|home|print|setCursor|cursor|noCursor|blink|noBlink|display|noDisplay|autoscroll|noAutoscroll|leftToRight|rightToLeft|scrollDisplayLeft|scrollDisplayRight|createChar|begin|exists|mkdir|remove|rmdir|open|close|seek|position|size|begin|end|transfer|setBitOrder|setDataMode|setClockDivider|setMOSI|setMISO|setSCK|usingInterrupt|beginTransaction|endTransaction|SPISettings|attach|detach|write|read|attached|writeMicroseconds|readMicroseconds|SoftPWMSet|SoftPWMSetPercent|SoftPWMSetFadeTime|SoftPWMBegin|SoftPWMEnd|SoftPWMSetPolarity|begin|end|read|write|available|isListening|overflow|flush|listen|peek|begin|beginTransmission|endTransmission|requestFrom|send|receive|onReceive|onRequest|Wire|Wire|Wire1|i2c_t3|begin|setOpMode|setRate|setClock|pinConfigure|setDefaultTimeout|resetBus|beginTransmission|endTransmission|sendTransmission|requestFrom|sendRequest|getError|status|done|finish|write|available|read|peek|readByte|peekByte|getRxAddr|onReceive|onRequest|send|receive)\b</string>
+			<key>name</key>
+			<string>support.function.arduino</string>
+		</dict>
+
+		<!-- 
+		supplement (slightly modified) taken from:
+		Arduino TextMate Bundle
+		https://code.google.com/p/arduino-textmate/ 
+		-->
+		<!-- 		<dict>
+					<key>include</key>
+					<string>#special_block</string>
+				</dict> -->		
+				<dict>
+					<key>match</key>
+					<string>\b(boolean|byte|word)\b</string>
+					<key>name</key>
+					<string>storage.type.source.arduino</string>
+				</dict>
+		<!--		<dict>
+					<key>match</key>
+					<string>\b(abs|acos|asin|atan|atan2|ceil|constrain|cos|degrees|exp|floor|log|map|max|min|radians|random|randomSeed|round|sin|sq|sqrt|tan|bitRead|bitWrite|bitSet|bitClear|bit|highByte|lowByte|analogReference|analogRead|analogWrite|attachInterrupt|detachInterrupt|delay|delayMicroseconds|digitalWrite|digitalRead|interrupts|millis|micros|noInterrupts|noTone|pinMode|pulseIn|shiftOut|tone|begin|end|read|print|println|available|flush|setup|loop)\b</string>
+					<key>name</key>
+					<string>support.function.source.arduino</string>
+				</dict> -->
+				<dict>
+					<key>match</key>
+					<string>\b(HIGH|LOW|INPUT|OUTPUT|DEC|BIN|HEX|OCT|BYTE|PI|HALF_PI|TWO_PI|LSBFIRST|MSBFIRST|CHANGE|FALLING|RISING|DEFAULT|EXTERNAL|INTERNAL|INTERNAL1V1|INTERNAL2V56|null)\b</string>
+					<key>name</key>
+					<string>constant.language.source.arduino</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(private|protected|public)</string>
+					<key>name</key>
+					<string>storage.modifier.source.arduino</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(Serial\d?)\b</string>
+					<key>name</key>
+					<string>support.class.source.arduino</string>
+				</dict>
+		<!-- 
+		supplement end
+		-->
+	</array>
+	<key>scopeName</key>
+	<string>source.arduino</string>
+	<key>uuid</key>
+	<string>26251B18-6B1D-11D9-AFDB-000D93580001</string>
+</dict>
+</plist>
